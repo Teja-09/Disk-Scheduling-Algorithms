@@ -21,3 +21,5 @@
 6. [CLOOK](https://github.com/Teja-09/Disk-Scheduling-Algorithms/blob/master/6.clook.cpp)
     * C Look Algorithm is similar to C-SCAN algorithm to some extent. In this algorithm, the arm of the disk moves outwards servicing requests until it reaches the highest request cylinder, then it jumps to the lowest request cylinder without servicing any request then it again start moving outwards servicing the remaining requests.
     * It is different from C SCAN algorithm in the sense that, C SCAN force the disk arm to move till the last cylinder regardless of knowing whether any request is to be serviced on that cylinder or not
+
+## For further explanations refer [javaTpoint](https://www.javatpoint.com/os-fcfs-scheduling-algorithm)
